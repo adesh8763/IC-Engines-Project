@@ -162,37 +162,6 @@ The implemented Simulink model accepts combustion pressure signals and produces 
 
 The current Simulink demonstration implements current-cycle condition classification. Integration of the next-cycle prediction model and closed-loop ECU control remains planned.
 
-## Repository Structure
-
-The following is a suggested organization. Actual filenames and directories should be updated to match the repository.
-
-```text
-Knock-Misfire-Prediction/
-│
-├── data/
-│   └── synthetic_dataset/
-│
-├── src/
-│   ├── signal_generation/
-│   ├── preprocessing/
-│   ├── feature_extraction/
-│   ├── model_training/
-│   └── early_prediction/
-│
-├── simulink/
-│   └── condition_classifier.slx
-│
-├── results/
-│   ├── pressure_traces/
-│   ├── feature_analysis/
-│   ├── confusion_matrix/
-│   └── performance_metrics/
-│
-├── docs/
-│   └── project_report.pdf
-│
-└── README.md
-```
 
 ## Getting Started
 
@@ -207,13 +176,13 @@ Knock-Misfire-Prediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/adesh8763/IC-Engines-Project
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd <repository>
+cd IC-Engines-Project
 ```
 
 Open the project in MATLAB and execute the scripts in the appropriate workflow:
